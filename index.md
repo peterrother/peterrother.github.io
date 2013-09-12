@@ -6,16 +6,16 @@ who lives in Cincinnati, Ohio. I was born and raised here
 and studied at St. Xavier High School as well as the
 University of Cincinnati, majoring in Information Systems.
 
-I’m a passionate fan of the German language and culture.
+I am a passionate fan of the German language and culture.
 After having studied in both Germany and Austria I started
 working in Munich, Germany, home of Oktoberfest. Since then
-I’ve developed quite the penchant for traveling throughout
+I have developed quite the penchant for traveling throughout
 Europe. Although Cincinnati remains my home, many of my
 interests revolve around our friends over the pond. Germany
 is especially home to me because of my German heritage and
 Cincinnati’s largely German roots.
 
-Other than that I’m an avid microbrew beer drinker,
+Other than that I am an avid microbrew beer drinker,
 locovore, coffee nut, son of a baker, tennis player and runner.
 
 ## Employment ##

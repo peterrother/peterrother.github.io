@@ -1,4 +1,4 @@
-# ![](http://peterrother.github.io/avatar.jpg) Peter's Wasteland #
+# ![](http://peterrother.github.io/avatar.jpg) Peter Rother #
 
 ## About Me ##
 I am Peter Rother, a 28-year old American Web Developer

@@ -3,7 +3,7 @@ I am Peter Rother, a 28-year old American Web Developer
 who lives in
 [Cincinnati, Ohio](http://en.wikipedia.org/wiki/Cincinnati).
 I was born and raised here and studied at
-[St. Xavier High School](http://en.wikipedia.org/wiki/St._Xavier_High_School_[Cincinnati])
+[St. Xavier High School](http://en.wikipedia.org/wiki/St._Xavier_High_School_(Cincinnati))
 as well as the
 [University of Cincinnati](http://en.wikipedia.org/wiki/University_of_Cincinnati),
 majoring in Information Systems.

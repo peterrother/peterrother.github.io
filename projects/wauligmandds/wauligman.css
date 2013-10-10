@@ -20,7 +20,7 @@ a:hover{
 
 h1{
 	margin:25px auto;
-	width:700px;
+	width:70%;
 	font-size:35px;
 }
 
@@ -31,7 +31,7 @@ h1 a{
 h2{font-size:25px;}
 
 div#main{
-	width:700px;
+	width:70%;
 	height:425px;
 	border:1px solid #bcbcbc;
 	border-radius:5px;
@@ -56,7 +56,13 @@ div#footer{
 	margin:0 auto;
 	text-align:right;
 	color:#999;
-	width:700px;
+	width:70%;
 	font-size:12px;
 	line-height:18px;
+}
+
+@media screen and (max-device-width: 640px){
+	div#main{width:100%;}
+	h1{width:100%;}
+	div#footer{width:100%;}
 }

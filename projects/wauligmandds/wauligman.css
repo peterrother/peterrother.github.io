@@ -1,0 +1,60 @@
+body{
+	font-family:'Calibri','Helvetica Neue',sans-serif;
+	line-height:24px;
+	font-size:14px;
+	color:#333;
+	background:#dedede;
+	margin:0;
+	padding:30px;
+}
+
+a{
+	color:#333;
+	text-decoration:none;
+	border-bottom:1px solid #666;
+}
+
+a:hover{
+	color:#666;
+}
+
+h1{
+	margin:25px auto;
+	width:700px;
+	font-size:35px;
+}
+
+h1 a{
+	border:0;
+}
+
+h2{font-size:25px;}
+
+div#main{
+	width:700px;
+	height:425px;
+	border:1px solid #bcbcbc;
+	border-radius:5px;
+	box-shadow:0 0 1em #bcbcbc;
+	margin:0 auto;
+	background:#fff;
+}
+
+div.smiley{
+	background:#fff;
+	float:right;
+	width:280px;
+	height:425px;
+	background:url('smiley.png') top right no-repeat;
+}
+
+div#content{
+	padding:0 15px 0 15px;
+}
+
+div#footer{
+	margin:0 auto;
+	text-align:right;
+	color:#999;
+	width:700px;
+}

@@ -1,9 +1,9 @@
 body{
-	font-family:'Calibri','Helvetica Neue',sans-serif;
+	font-family:'Calibri','HelveticaNeue-Light','Helvetica Neue',sans-serif;
 	line-height:24px;
-	font-size:14px;
+	font-size:13px;
 	color:#333;
-	background:#dedede;
+	background:url('texture.png');
 	margin:0;
 	padding:30px;
 }
@@ -26,18 +26,25 @@ h1{
 
 h1 a{
 	border:0;
+	color:#456789;
 }
 
-h2{font-size:25px;}
+h1 a:hover{
+	color:#567890;
+}
+
+h2{
+	font-size:25px;
+	color:#456789;
+	font-weight:normal;
+}
 
 div#main{
 	width:70%;
 	height:425px;
-	border:1px solid #bcbcbc;
-	border-radius:5px;
-	box-shadow:0 0 1em #bcbcbc;
 	margin:0 auto;
 	background:#fff;
+	border:1px solid #ddd;
 }
 
 div.smiley{
@@ -49,16 +56,17 @@ div.smiley{
 }
 
 div#content{
-	padding:0 15px 0 15px;
+	padding:15px;
 }
 
 div#footer{
 	margin:0 auto;
 	text-align:right;
-	color:#999;
+	color:#333;
 	width:70%;
 	font-size:12px;
 	line-height:18px;
+	margin-top:15px;
 }
 
 @media screen and (max-device-width: 640px){

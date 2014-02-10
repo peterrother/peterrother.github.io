@@ -9,7 +9,8 @@ body{
 		and (min-device-width:320px) 
 		and (max-device-width:568px){
 	body {
-		font-size:200%;
+		font-size:250%;
+		line-height:250%;
 	}
 }
 

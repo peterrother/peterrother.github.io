@@ -1,10 +1,8 @@
 body{
 	font-family:'HelveticaNeue-Light','Helvetica Neue Light','Helvetica Neue',sans-serif;
-	margin:50px;
 	background:#ececec;
 	color:#000;
 	line-height:32px;
-	-webkit-text-size-adjust: 100%;
 }
 
 h1,h2,h3,ul{font-weight:normal;}

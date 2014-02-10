@@ -3,6 +3,11 @@ body{
 	background:#ececec;
 	color:#000;
 	line-height:32px;
+	@media only screen
+			and (min-device-width:320px) 
+			and (max-device-width:568px){
+		font-size:200%;
+	}
 }
 
 h1,h2,h3,ul{font-weight:normal;}

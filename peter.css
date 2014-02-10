@@ -10,7 +10,11 @@ body{
 		and (max-device-width:568px){
 	body {
 		font-size:250%;
-		line-height:250%;
+		line-height:200%;
+	}
+	img {
+		width:200%;
+		height:200%;
 	}
 }
 

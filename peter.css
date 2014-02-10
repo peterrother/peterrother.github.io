@@ -71,5 +71,6 @@ ul.nobull li{margin:5px 0 0 0;}
 	}
 	blockquote{
 		margin:30px 120px 60px 120px;
+		line-height:40px;
 	}
 }

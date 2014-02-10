@@ -38,7 +38,7 @@ code{
 }
 .avatar{float:left;margin-right:15px;border-radius:50px;margin-top:-5px;}
 ul.nobull{list-style-type:none;margin:10px 0 0 0;}
-ul.nobull li{margin:5px 0 0 0;}
+ul.nobull li{margin:5px 0 0 0;line-height:20px;}
 
 @media only screen
 		and (min-device-width:320px) 
@@ -75,7 +75,8 @@ ul.nobull li{margin:5px 0 0 0;}
 	blockquote{
 		margin:30px 120px 60px 120px;
 		padding:30px;
-		line-height:40px;
+		line-height:50px;
 	}
 	ul.nobull{margin-top:20px;}
+	ul.nobull li{line-height:40px;}
 }

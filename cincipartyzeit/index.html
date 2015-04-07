@@ -143,15 +143,23 @@
 
 		<script>
 			$(document).ready(function() {
+				var today = new Date();
+				var months = ['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec'];
+				var currMonth = months[today.getMonth()];
+
 				$('ul.monthlist li').each(function() {
 					$(this).click(function(event) {
 						event.preventDefault();
-						 $('html, body').animate({
+						 $('html, body').stop().animate({
 						 	scrollTop: $('#'+$(this).attr('data-month')).offset().top - $('#months').offset().top
 						 }, 1000)
 						 window.location.hash = $(this).attr('data-month');
 					})
-				})
+				});
+
+				$('html, body').animate({
+					scrollTop: $('#'+currMonth).offset().top - $('#months').offset().top
+				}, 1000);
 			})
 		</script>
 	</head>
@@ -185,10 +193,12 @@
 				</tr>
 				<tr>
 					<td class="nowrap">
-						Saturday, April 11<br />
-						11am – 3pm<br />
+						<a class="cal" href="ics/Apr_Mustard_Club.ics">
+							Saturday, April 11<br />
+							11am - 3pm
+						</a>
 					</td>
-					<td class="nowrap">
+					<td>
 						<a href="http://mustardclub.org">Mustard Club</a>
 					</td>
 					<td>
@@ -208,7 +218,7 @@
 						Saturday, April 18<br />
 						12pm – 5pm
 					</td>
-					<td class="nowrap">
+					<td>
 						<a href="https://www.facebook.com/events/1592397364326588/">Bavarian Bowling Tournament</a>
 					</td>
 					<td>
@@ -218,7 +228,7 @@
 						This is one of the finest bowling tournaments to exist
 						between the German clubs of Cincinnati. It is hosted
 						by the Bayrischer Unterstützungsverein and it is well
-						worth taking part in and/or hanging out with some great
+						worth taking part in and/or for hanging out with some great
 						people.
 					</td>
 				</tr>
@@ -230,11 +240,11 @@
 						Saturday, April 25<br />
 						12pm – 11pm
 					</td>
-					<td class="nowrap">
+					<td>
 						<a href="https://www.facebook.com/events/652120708249721/">Starkbierfest</a>
 					</td>
 					<td>
-						<a href="http://maps.apple.com/?q=1621 Dana Ave, Cincinnati, Ohio 45207">Listermann Brewing Co.</a>
+						<a href="http://maps.apple.com/?q=1621 Dana Ave, Cincinnati, Ohio 45207">Listermann Brewing</a>
 					</td>
 					<td>
 						The Craft Brewer's Starkbierfest at Listermann Brewing is a must
@@ -327,6 +337,26 @@
 						good, beer selection is amazing, and music is just perfect.
 					</td>
 				</tr>
+
+				<tr>
+					<td class="nowrap">
+						Saturday, June 13<br />
+						11am – 3pm<br />
+					</td>
+					<td class="nowrap">
+						<a href="http://mustardclub.org">Mustard Club</a>
+					</td>
+					<td>
+						<a href="http://maps.apple.com/?q=302 E University Ave, Cincinnati, OH 45219">Mecklenburg Gardens</a>
+					</td>
+					<td>
+						The one and only Händlmeier Mustard Club in Cincinnati
+						holds one of the finest events every month at Meck's
+						consisting of a sausage buffet, pretzels, potatoes,
+						and mustard. If you don't love mustard, leave this page
+						immediately.
+					</td>
+				</tr>
 			</table>
 
 			<h3 id="jul">JULY</h3>
@@ -340,27 +370,67 @@
 
 				<tr>
 					<td class="nowrap">
+						Friday, July 10<br />
+						5pm - 11pm<br /><br />
+						Saturday, July 11<br />
+						12pm - 11pm
 					</td>
 					<td class="nowrap">
-						<a href=""></a>
+						<a href="https://www.facebook.com/events/344151439126064/">Volksfest</a>
 					</td>
 					<td>
-						<a href=""></a>
+						<a href="http://maps.apple.com/?q=1621 Dana Ave, Cincinnati, Ohio 45207">Listermann Brewing</a>
 					</td>
 					<td>
+						This is one hot and sticky beer festival that will
+						make you regret wearing Lederhosen, but the beer makes
+						you quickly forget that and by nighttime your shirt may
+						or may not come off. Good luck!
 					</td>
 				</tr>
 
 				<tr>
 					<td class="nowrap">
+						Saturday, July 11<br />
+						11am – 3pm<br />
 					</td>
 					<td class="nowrap">
-						<a href=""></a>
+						<a href="http://mustardclub.org">Mustard Club</a>
 					</td>
 					<td>
-						<a href=""></a>
+						<a href="http://maps.apple.com/?q=302 E University Ave, Cincinnati, OH 45219">Mecklenburg Gardens</a>
 					</td>
 					<td>
+						The one and only Händlmeier Mustard Club in Cincinnati
+						holds one of the finest events every month at Meck's
+						consisting of a sausage buffet, pretzels, potatoes,
+						and mustard. If you don't love mustard, leave this page
+						immediately.
+					</td>
+				</tr>
+
+				<tr>
+					<td class="nowrap">
+						Friday, July 17<br />
+						?<br /><br />
+						Saturday, July 18<br />
+						?<br /><br />
+						Sunday, July 19<br />
+						?
+					</td>
+					<td class="nowrap">
+						<a href="https://www.facebook.com/SchutzenfestCincinnati">Schützenfest</a>
+					</td>
+					<td>
+						<a href="http://maps.apple.com/?q=10235 Mill Road Cincinnati, Ohio 45231">Kolping Society</a>
+					</td>
+					<td>
+						Speaking of hot festivals, Schützenfest is one of the finest
+						summer German festivals out there. Pro tip: wander back to the
+						shaded woods area and reserve a few picnic tables for you and your
+						friends. You'll enjoy being able to hear each other and still
+						have the band playing in the background. Also pretzels, lots of
+						pretzels!
 					</td>
 				</tr>
 			</table>
@@ -376,25 +446,38 @@
 
 				<tr>
 					<td class="nowrap">
+						Saturday, August 8<br />
+						11am – 3pm<br />
 					</td>
 					<td class="nowrap">
-						<a href=""></a>
+						<a href="http://mustardclub.org">Mustard Club</a>
 					</td>
 					<td>
-						<a href=""></a>
+						<a href="http://maps.apple.com/?q=302 E University Ave, Cincinnati, OH 45219">Mecklenburg Gardens</a>
 					</td>
 					<td>
+						The one and only Händlmeier Mustard Club in Cincinnati
+						holds one of the finest events every month at Meck's
+						consisting of a sausage buffet, pretzels, potatoes,
+						and mustard. If you don't love mustard, leave this page
+						immediately.
 					</td>
 				</tr>
 
 				<tr>
 					<td class="nowrap">
+						Friday, August 28<br />
+						6pm - 12am<br /><br />
+						Saturday, August 29<br />
+						2pm - 12am<br /><br />
+						Sunday, August 30<br />
+						12pm - 10pm
 					</td>
 					<td class="nowrap">
-						<a href=""></a>
+						<a href="http://www.germaniasociety.com/site2007/oktoberfest14/oktoberfesthome.html">Germania Oktoberfest</a>
 					</td>
 					<td>
-						<a href=""></a>
+						<a href="http://maps.apple.com/?q=3529 W Kemper Rd, Cincinnati, OH 45251">Germania Park</a>
 					</td>
 					<td>
 					</td>
@@ -412,25 +495,38 @@
 
 				<tr>
 					<td class="nowrap">
+						Saturday, September 12<br />
+						11am – 3pm<br />
 					</td>
 					<td class="nowrap">
-						<a href=""></a>
+						<a href="http://mustardclub.org">Mustard Club</a>
 					</td>
 					<td>
-						<a href=""></a>
+						<a href="http://maps.apple.com/?q=302 E University Ave, Cincinnati, OH 45219">Mecklenburg Gardens</a>
 					</td>
 					<td>
+						The one and only Händlmeier Mustard Club in Cincinnati
+						holds one of the finest events every month at Meck's
+						consisting of a sausage buffet, pretzels, potatoes,
+						and mustard. If you don't love mustard, leave this page
+						immediately.
 					</td>
 				</tr>
 
 				<tr>
 					<td class="nowrap">
+						Friday, September 18<br />
+						5pm - 12am<br /><br />
+						Saturday, September 19<br />
+						11am - 12am<br /><br />
+						Sunday, September 20<br />
+						11am - 10pm
 					</td>
 					<td class="nowrap">
-						<a href=""></a>
+						<a href="http://www.oktoberfestzinzinnati.com">Oktoberfest Zinzinnati</a>
 					</td>
 					<td>
-						<a href=""></a>
+						<a href="http://maps.apple.com/?q=Vine St and E 5th St, Cincinnati, OH">5th St.</a>
 					</td>
 					<td>
 					</td>
@@ -448,12 +544,18 @@
 
 				<tr>
 					<td class="nowrap">
+						Friday, October 2<br />
+						?<br /><br />
+						Saturday, October 3<br />
+						?<br /><br />
+						Sunday, October 4<br />
+						?
 					</td>
 					<td class="nowrap">
-						<a href=""></a>
+						<a href="https://www.facebook.com/DSOktoberfest">Donauschwaben Oktoberfest</a>
 					</td>
 					<td>
-						<a href=""></a>
+						<a href="http://maps.apple.com/?q=4290 Dry Ridge Rd, Cincinnati, Ohio 45252">Donauschwaben</a>
 					</td>
 					<td>
 					</td>
@@ -461,14 +563,38 @@
 
 				<tr>
 					<td class="nowrap">
+						Friday, October 9<br />
+						5pm – 11pm<br /><br />
+						Saturday, October 10<br />
+						12pm – 11pm
 					</td>
 					<td class="nowrap">
-						<a href=""></a>
+						<a href="https://www.facebook.com/events/868297853221931/">Listermann Oktoberfest</a>
 					</td>
 					<td>
-						<a href=""></a>
+						<a href="http://maps.apple.com/?q=1621 Dana Ave, Cincinnati, Ohio 45207">Listermann Brewing Co.</a>
 					</td>
 					<td>
+					</td>
+				</tr>
+
+				<tr>
+					<td class="nowrap">
+						Saturday, October 10<br />
+						11am – 3pm<br />
+					</td>
+					<td class="nowrap">
+						<a href="http://mustardclub.org">Mustard Club</a>
+					</td>
+					<td>
+						<a href="http://maps.apple.com/?q=302 E University Ave, Cincinnati, OH 45219">Mecklenburg Gardens</a>
+					</td>
+					<td>
+						The one and only Händlmeier Mustard Club in Cincinnati
+						holds one of the finest events every month at Meck's
+						consisting of a sausage buffet, pretzels, potatoes,
+						and mustard. If you don't love mustard, leave this page
+						immediately.
 					</td>
 				</tr>
 			</table>
@@ -484,25 +610,38 @@
 
 				<tr>
 					<td class="nowrap">
+						Saturday, November 14<br />
+						11am – 3pm<br />
 					</td>
 					<td class="nowrap">
-						<a href=""></a>
+						<a href="http://mustardclub.org">Mustard Club</a>
 					</td>
 					<td>
-						<a href=""></a>
+						<a href="http://maps.apple.com/?q=302 E University Ave, Cincinnati, OH 45219">Mecklenburg Gardens</a>
 					</td>
 					<td>
+						The one and only Händlmeier Mustard Club in Cincinnati
+						holds one of the finest events every month at Meck's
+						consisting of a sausage buffet, pretzels, potatoes,
+						and mustard. If you don't love mustard, leave this page
+						immediately.
 					</td>
 				</tr>
 
 				<tr>
 					<td class="nowrap">
+						Friday, November 20<br />
+						?<br /><br />
+						Saturday, November 21<br />
+						?<br /><br />
+						Sunday, November 22<br />
+						?
 					</td>
 					<td class="nowrap">
-						<a href=""></a>
+						<a href="http://www.germaniasociety.com/site2007/christkindlmarkt2014/index.html">Germania Christkindlmarkt</a>
 					</td>
 					<td>
-						<a href=""></a>
+						<a href="http://maps.apple.com/?q=3529 W Kemper Rd, Cincinnati, OH 45251">Germania Park</a>
 					</td>
 					<td>
 					</td>
@@ -520,27 +659,21 @@
 
 				<tr>
 					<td class="nowrap">
+						Saturday, December 12<br />
+						11am – 3pm<br />
 					</td>
 					<td class="nowrap">
-						<a href=""></a>
+						<a href="http://mustardclub.org">Mustard Club</a>
 					</td>
 					<td>
-						<a href=""></a>
+						<a href="http://maps.apple.com/?q=302 E University Ave, Cincinnati, OH 45219">Mecklenburg Gardens</a>
 					</td>
 					<td>
-					</td>
-				</tr>
-
-				<tr>
-					<td class="nowrap">
-					</td>
-					<td class="nowrap">
-						<a href=""></a>
-					</td>
-					<td>
-						<a href=""></a>
-					</td>
-					<td>
+						The one and only Händlmeier Mustard Club in Cincinnati
+						holds one of the finest events every month at Meck's
+						consisting of a sausage buffet, pretzels, potatoes,
+						and mustard. If you don't love mustard, leave this page
+						immediately.
 					</td>
 				</tr>
 			</table>

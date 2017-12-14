@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  {{ content }}
+  
+  <div class="blog-index">
+    {% assign post = site.posts.first %}
+    {% assign content = post.content %}
+    {% include post_detail.html %}
+  </div>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      {% if forloop.first == false %}
+      <li>
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h2>
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>

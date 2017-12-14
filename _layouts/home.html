@@ -5,16 +5,19 @@ layout: default
 <div class="home">
 
   {{ content }}
-  
-  <div class="blog-index">
-    {% assign post = site.posts.first %}
-    {% assign content = post.content %}
-    {% include post_detail.html %}
-  </div>
 
   <ul class="post-list">
     {% for post in site.posts %}
-      {% if forloop.first == false %}
+      {% if forloop.index <= 5 %}
+      <div class="blog-index">
+        {% assign post = post.title %}
+        {% assign content = post.content %}
+        {% assign date = post.date %}
+        {% include post_detail.html %}
+      </div>
+      {% endif %}
+
+      {% if forloop.index > 5 %}
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <span class="post-meta">{{ post.date | date: date_format }}</span>

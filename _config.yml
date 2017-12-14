@@ -22,6 +22,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://peterrother.com" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: 
 #github_username: 
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
 
 # Build settings
 markdown: kramdown

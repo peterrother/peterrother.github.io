@@ -496,6 +496,9 @@ body {
 a {
   color: #1756a9; }
 
+.site-title, .site-title:visited {
+  color: #111; }
+
 .post-header {
   margin-bottom: 5px; }
 

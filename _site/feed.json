@@ -1,0 +1,41 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Peter Rother’s Journal",
+  "description": "Experiences and thoughts of a 30-something software developer from Cincinnati, Ohio",
+  "home_page_url": "http://localhost:4000",
+  "feed_url": "http://localhost:4000/feed.json",
+  "favicon": "http://localhost:4000/favicon.png",
+  
+  "author": {
+    "name": "Peter Rother"
+  },
+  
+  "items": [
+    
+    
+    {
+      "id": "http://localhost:4000/2017/12/18/engagement-party.html",
+      "url": "http://localhost:4000/2017/12/18/engagement-party.html",
+      "title": "Engagement Party",
+      "content_html": "<p>Yesterday afternoon, we celebrated our engagement among family and friends at Liberty’s Bar &amp; Bottle in Over-the-Rhine. It was a fantastic turnout and the perfect way to kick off what will be a long series of celebrations and sparkling wine as we eventually narrow in on our wedding date.</p>\n\n<p><img src=\"http://localhost:4000/assets/img/engagement_party.jpg\" alt=\"Engagement Party Portrait\" /></p>\n",
+      "date_published": "Mon, 18 Dec 2017 12:00:00 -0500"
+      },
+    
+    {
+      "id": "http://localhost:4000/2017/12/14/engaged.html",
+      "url": "http://localhost:4000/2017/12/14/engaged.html",
+      "title": "Engaged",
+      "content_html": "<p>On Sunday, December 10th, 2017, I proposed to Katie on <a href=\"http://en.wikipedia.org/wiki/Lake_Como\">Lake Como</a> in Italy and she said <em>yes</em>. What a magnificent feeling it is after almost three years of dating. I could not be happier to be spending the rest of my life with my best friend and strongest supporter in life. 🥂</p>\n\n<p><img src=\"http://localhost:4000/assets/img/engaged.jpg\" alt=\"An Engagement Photo\" /></p>\n\n",
+      "date_published": "Thu, 14 Dec 2017 17:30:00 -0500"
+      },
+    
+    {
+      "id": "http://localhost:4000/2017/12/14/reemergence.html",
+      "url": "http://localhost:4000/2017/12/14/reemergence.html",
+      "title": "Reemergence",
+      "content_html": "<p>I’m returning to the world of online journaling in this age of mass microblogging in hopes of reminding netizens that not everything revolves around two or three social media platforms.</p>\n\n<p>Imagine a world wide web wherein someone wants to know what another is up to—they could navigate to that person’s domain and be immediately presented with micro updates, long-form reads, photographs, stories, music, and more. Guess what? They can. Even more, they can share these publications with friends using hyperlinks. They can even comment via email and express how much they liked something.</p>\n\n<p>Today, I embark on a simple mission to share bits and pieces of my life, the thoughts swirling in my head, and anything that I deem worth sharing with people who are curious to know. There will be no tracking of any kind. I will not present you with advertisements of things you’ve been shopping for. It will simply be my words and my media.</p>\n\n<p>Should you be interested in a conversation regarding one of my posts or more, I’ll gladly discourse with you via email. Please find my email address in the footer section of this page.</p>\n\n<p>Lastly, if you don’t like following me, no need to press an <em>Unfollow</em> button. Simply close your browser window.</p>\n",
+      "date_published": "Thu, 14 Dec 2017 14:00:00 -0500"
+      }
+    
+  ]
+}

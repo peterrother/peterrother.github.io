@@ -23,3 +23,15 @@ a {
 	font-size: 30px;
 	margin-bottom: 0;
 }
+
+.post-meta a {
+	color: #828282;
+}
+
+.micropost, .micropost p {
+	margin-bottom: 0;
+}
+
+.post-meta.micropost {
+	margin-bottom: 30px;
+}

@@ -1,3 +1,4 @@
+{% if content.size > 280 %}
 <header class="post-header">
 	<h1 class="post-title" itemprop="name headline">
 	{% if page.title %}
@@ -7,6 +8,7 @@
 		<a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
 	{% endif %}
 	</h1>
+
 	<p class="post-meta">
 	  <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
 	    {% assign date_format = site.minima.date_format | default: "%b %-d, %Y @ %H:%M (UTC%z)" %}
@@ -18,3 +20,17 @@
 <div class="post-content" itemprop="articleBody">
 	{{ content }}
 </div>
+{% endif %}
+
+{% if content.size <= 280 %}
+	<div class="post-content micropost" itemprop="articleBody">
+		{{ content }}
+	</div>
+
+	<p class="post-meta micropost">
+	  <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+	    {% assign date_format = site.minima.date_format | default: "%b %-d, %Y @ %H:%M (UTC%z)" %}
+	    <a href="{{ root_url }}{{ post.url }}">{{ post.date | date: date_format }}</a>
+	  </time>
+	</p>
+{% endif %}

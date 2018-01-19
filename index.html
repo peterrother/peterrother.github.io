@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <ul class="post-list">
+    {% for post in paginator.posts %}
+      <div class="blog-index">
+        {% assign post = post.title %}
+        {% assign content = post.content %}
+        {% assign date = post.date %}
+        {% include post_detail.html %}
+      </div>
+    {% endfor %}
+  </ul>
+
+  <div class="pagination">
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="pagination-older">← Older Posts</a>
+    {% endif %}
+
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="pagination-newer">Newer Posts →</a>
+    {% endif %}
+
+    <div class="clear"></div>
+  </div>
+</div>

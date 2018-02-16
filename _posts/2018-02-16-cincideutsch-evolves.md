@@ -8,8 +8,9 @@ Last week, [Cincideutsch][cincideutsch], the local German language club that I h
 
 As a non-profit organization, Cincideutsch has a lot of potential to work with the local community and actively promote our proud German heritage in Cincinnati. In having official members, we are hoping to find new channels of donorship and elicit ideas from our core devotees.
 
-If you are in the Cincinnati Tri-state area and have any interest in German language and culture, consider joining us at our weekly Stammtisch at Mecklenburg Gardens at 6pm.
+If you are in the Cincinnati Tri-state area and have any interest in German language and culture, consider joining us at our weekly Stammtisch at [Mecklenburg Gardens][mecks] at 6pm.
 
 ![Cincideutsch’s 7th Anniversary]({{ "/assets/img/cincideutsch_7.jpg" | absolute_url }})
 
 [cincideutsch]: http://cincideutsch.com
+[mecks]: https://www.mecklenburgs.com

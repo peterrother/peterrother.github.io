@@ -24,6 +24,16 @@
   }
 }
 
+.site-title-avatar {
+  background: url("/avatar.jpg") no-repeat;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  float: left;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
 .site-nav {
   float: right;
   line-height: $base-line-height * $base-font-size * 2.25;

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 FOLDER="./_posts"
-EDITOR="Sublime Text 2"
+EDITOR="Atom"
 
 function prompt() {
 	osascript <<EOT

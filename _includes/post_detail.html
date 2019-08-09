@@ -23,13 +23,15 @@
 {% endif %}
 
 {% if content.size <= 280 %}
+	{% if last_date != curr_date %}
 	<header class="post-header">
 		<h1 class="post-title" itemprop="name headline">
 			<time datetime="{{ post.date | date_to_xmlschema }}">
-				{{ post.date | date: "%A, %B %e, %Y"}}
+				{{ post.date | date: "%B %e, %Y"}}
 			</time>
 		</h1>
 	</header>
+	{% endif %}
 
 	<div class="post-content micropost" itemprop="articleBody">
 		{{ content }}

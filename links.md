@@ -28,3 +28,5 @@ Cincinnati's independent news and arts tabloid
 A Cincinnati-focused online publication for community storytelling
 - [indieweb.org](https://indieweb.org) -
 Excellent resources on the IndieWeb and how you can be part of it
+- <a href="https://micro.blog/peterrother" rel="me">micro.blog</a> -
+My Micro.blog account, which contains all the posts from this journal

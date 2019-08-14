@@ -4,7 +4,7 @@
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
 
-    <a class="h-card u-url site-title" href="{{ "/" | relative_url }}" rel="me">
+    <a class="h-card u-url site-title" href="{{ site.url }}" rel="me">
       <span class="site-title-avatar u-photo"></span>
       {{ site.title | escape }}
     </a>

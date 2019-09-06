@@ -30,3 +30,7 @@ A Cincinnati-focused online publication for community storytelling
 Excellent resources on the IndieWeb and how you can be part of it
 - <a href="https://micro.blog/peterrother" rel="me">micro.blog</a> -
 My Micro.blog account, which contains all the posts from this journal
+- <a href="http://www.wandersite.ch">Wandersite</a> -
+A Swiss hiking hobbyist who's logged some serious miles and recorded everything
+- <a href="https://www.allgaeu-viehscheid.de">Viehscheid Allgäu</a> -
+Your guide to the annual Viehscheid events happening throughout the Allgäu

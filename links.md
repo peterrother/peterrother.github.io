@@ -34,5 +34,5 @@ My Micro.blog account, which contains all the posts from this journal
 A Swiss hiking hobbyist who's logged some serious miles and recorded everything
 - [allgaeu-viehscheid.de](https://www.allgaeu-viehscheid.de) -
 Your guide to the annual Viehscheid events happening throughout the Allgäu
-- [qutebrowser](https://www.qutebrowser.org) -
+- [qutebrowser.org](https://www.qutebrowser.org) -
 A keyboard-focused web browser that can be used on many different platforms

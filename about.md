@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am Peter Rother, a 33-year old American web application developer who lives in the [Over-the-Rhine][otr] neighborhood of [Cincinnati, Ohio][cincinnati]. I was born and raised here and studied at [St. Xavier High School][st-xavier] and the [University of Cincinnati][uc], having majored in Information Systems.
+I am Peter Rother, a 34-year old American web application developer who lives in the [Over-the-Rhine][otr] neighborhood of [Cincinnati, Ohio][cincinnati]. I was born and raised here and studied at [St. Xavier High School][st-xavier] and the [University of Cincinnati][uc], having majored in Information Systems.
 
 I am a passionate fan of the German language and culture. After studying in both Germany and Austria I worked in Cincinnati's sister city, [Munich, Germany][munich], home of Oktoberfest. Since then I have developed quite the penchant for traveling throughout Europe.
 

@@ -36,3 +36,5 @@ A Swiss hiking hobbyist who's logged some serious miles and recorded everything
 Your guide to the annual Viehscheid events happening throughout the Allgäu
 - [qutebrowser.org](https://www.qutebrowser.org) -
 A keyboard-focused web browser that can be used on many different platforms
+- [apple.com/ios/home/accessories](https://www.apple.com/ios/home/accessories/) -
+A convenient list of all Homekit-compatible devices out there in the marketplace

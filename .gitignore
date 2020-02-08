@@ -3,5 +3,5 @@ _site/**
 Gemfile
 *.lock
 _site/feed.json
-
 _site/feed.xml
+.jekyll-cache/**

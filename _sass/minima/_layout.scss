@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
+  // border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
 
@@ -10,22 +10,24 @@
   position: relative;
 }
 
-.site-title {
-  @include relative-font-size(1.625);
-  font-weight: 300;
-  line-height: $base-line-height * $base-font-size * 2.25;
-  letter-spacing: -1px;
-  margin-bottom: 0;
-  float: left;
-
-  &,
-  &:visited {
-    color: $grey-color-dark;
-  }
+.site-profile {
+	float: left;
 }
 
-.site-title-avatar {
-  background: url("/avatar.jpg") no-repeat;
+.site-profile h1 {
+	@include relative-font-size(1.625);
+	font-weight: 300;
+  line-height: $base-line-height * $base-font-size * 2.25;
+  letter-spacing: -1px;
+	margin-bottom: 0;
+	display: inline;
+}
+
+.site-title {
+  margin-bottom: 0;
+}
+
+#site-title-avatar {
   background-size: cover;
   width: 40px;
   height: 40px;
@@ -33,6 +35,7 @@
   float: left;
   margin-right: 10px;
   margin-top: 5px;
+	margin-bottom: 0;
 }
 
 .site-nav {

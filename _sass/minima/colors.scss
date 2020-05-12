@@ -11,7 +11,8 @@ $colors: (
 		rouge: #eef,
 		grey-color: #828282,
 		grey-color-light: lighten(#828282, 40%),
-		grey-color-dark: darken(#828282, 25%)
+		grey-color-dark: darken(#828282, 25%),
+		hamburger: darken(#828282, 25%)
 	),
 	dark: (
 		background: #222,
@@ -25,7 +26,8 @@ $colors: (
 		rouge: #111,
 		grey-color: #212121,
 		grey-color-light: lighten(#212121, 40%),
-		grey-color-dark: darken(#212121, 25%)
+		grey-color-dark: darken(#212121, 25%),
+		hamburger: lighten(#212121, 40%)
 	),
 );
 

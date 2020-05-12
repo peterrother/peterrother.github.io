@@ -5,10 +5,14 @@
 			{% assign page_paths = site.header_pages | default: default_paths %}
 
 			<a class="site-title u-url" href="{{ site.url }}" rel="me">
-				<img id="site-title-avatar" class="u-photo" src="{{ site.url }}/avatar.jpg" width="40" height="40"></img>
+				<img id="site-title-avatar" class="u-photo" src="{{ site.url }}/avatar.jpg" />
 			</a>
 
-			<h1 class="p-name" rel="me">{{ site.title | escape }}</h1>
+			<h1 class="p-name" rel="me">
+				<a id="site-title-link" class="site-title u-url" href="{{ site.url }}" rel="me">
+					{{ site.title | escape }}
+				</a>
+			</h1>
 		</header>
 
 		{% if page_paths %}

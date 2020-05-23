@@ -27,15 +27,19 @@
   margin-bottom: 0;
 }
 
+#site-title-link {
+	@include color-assign(color, primary-500);
+}
+
 #site-title-avatar {
   background-size: cover;
-  width: 40px;
-  height: 40px;
-  border-radius: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
   float: left;
   margin-right: 10px;
   margin-top: 5px;
-	margin-bottom: 0;
+	margin-bottom: 5px;
 }
 
 .site-nav {
@@ -64,8 +68,9 @@
     position: absolute;
     top: 9px;
     right: $spacing-unit / 2;
-    background-color: $background-color;
-    border: 1px solid $grey-color-light;
+		@include color-assign(background-color, background);
+		@include color-assign(border-color, grey-color-light);
+    border: 1px solid;
     border-radius: 5px;
     text-align: right;
 
@@ -88,7 +93,7 @@
       text-align: center;
 
       > svg path {
-        fill: $grey-color-dark;
+				@include color-assign(fill, hamburger);
       }
     }
 

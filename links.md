@@ -18,8 +18,6 @@ Chris Anderson's awesome home for mind-blowing science knowledge
 Chris Anderson's new blog capturing all the fun science locally
 - [blog.fefe.de](http://blog.fefe.de) -
 No nonsense German news in a plain text format with a tech focus
-- [oldfashioned101.com](https://oldfashioned101.com) -
-The only way to make an old-fashioned cocktail
 - [atp.fm](https://atp.fm) -
 Everyone's favorite Apple-focused podcast
 - [citybeat.com](https://www.citybeat.com) -

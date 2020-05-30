@@ -247,3 +247,12 @@ table {
     border: 1px solid $grey-color-light;
   }
 }
+
+/**
+ * Others
+ */
+abbr {
+	cursor: help;
+	border-bottom: 1px dotted;
+	@include color-assign(border-color, grey-color-dark);
+}

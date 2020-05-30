@@ -58,6 +58,10 @@
     @include color-assign(color, nav-color);
     line-height: $base-line-height;
 
+		&:hover {
+			padding-bottom: 3px; // Account for emoji heights
+		}
+
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
       margin-right: 20px;

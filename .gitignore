@@ -5,3 +5,4 @@ Gemfile
 _site/feed.json
 _site/feed.xml
 .jekyll-cache/**
+.sass-cache/**

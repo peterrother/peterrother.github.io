@@ -9,10 +9,10 @@ $colors: (
 		brand-color: #1756a9,
 		nav-color: #111,
 		rouge: #eef,
-		grey-color: #828282,
-		grey-color-light: lighten(#828282, 40%),
-		grey-color-dark: darken(#828282, 25%),
-		hamburger: darken(#828282, 25%)
+		grey-color: #929292,
+		grey-color-light: lighten(#929292, 25%),
+		grey-color-dark: darken(#929292, 25%),
+		hamburger: darken(#929292, 25%)
 	),
 	dark: (
 		background: #222,
@@ -24,10 +24,10 @@ $colors: (
 		brand-color: #468ae3,
 		nav-color: #ccc,
 		rouge: #111,
-		grey-color: #212121,
-		grey-color-light: lighten(#212121, 40%),
-		grey-color-dark: darken(#212121, 25%),
-		hamburger: lighten(#212121, 40%)
+		grey-color: #929292,
+		grey-color-light: lighten(#929292, 40%),
+		grey-color-dark: darken(#929292, 25%),
+		hamburger: lighten(#929292, 40%)
 	),
 );
 

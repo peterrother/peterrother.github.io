@@ -3,21 +3,18 @@ layout: default
 ---
 
 <div class="home">
-
-  <ul class="post-list">
+  <div class="post-list">
     {% for post in paginator.posts %}
-      {% assign curr_date = post.date | date: "%Y-%m-%d" %}
-
-      <div class="blog-index">
+      <article class="post">
         {% assign post = post.title %}
         {% assign content = post.content %}
         {% assign date = post.date %}
         {% include post_detail.html %}
-      </div>
+      </article>
       
       {% assign last_date = post.date | date: "%Y-%m-%d" %}
     {% endfor %}
-  </ul>
+  </div>
 
   <div class="pagination">
     {% if paginator.next_page %}

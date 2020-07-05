@@ -8,7 +8,7 @@ I am Peter Rother, a 34-year old American web application developer who lives in
 
 I am a passionate fan of the German language and culture. After studying in both Germany and Austria I worked in Cincinnati's sister city, [Munich, Germany][munich], home of Oktoberfest. Since then I have developed quite the penchant for traveling throughout Europe.
 
-Although Cincinnati remains my home, many of my interests revolve around our friends over the pond. Germany is especially home to me because of my German heritage and Cincinnati’s largely German roots. In 2010 a few friends and I started [Cincideutsch][cincideutsch], a local German-speaking organization who meets every Monday at 6pm for Stammtisch at [Mecklenburg Gardens][mecklenburgs].
+Although Cincinnati remains my home, many of my interests revolve around our friends over the pond. Germany is especially home to me because of my German heritage and Cincinnati’s largely German roots. In 2010 a few friends and I started [Cincideutsch][cincideutsch], a local German-speaking organization that meets every Monday at 6pm for Stammtisch at [Mecklenburg Gardens][mecklenburgs].
 
 I am also a runner, coffee aﬁcianado, Apple follower, tennis player, public transit geek, beer nerd and indie folk music lover.
 

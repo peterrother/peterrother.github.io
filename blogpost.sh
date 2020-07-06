@@ -1,7 +1,7 @@
 #!/bin/bash
 
 FOLDER="./_posts"
-EDITOR="Atom"
+EDITOR="Visual Studio Code"
 
 function prompt() {
 	osascript <<EOT

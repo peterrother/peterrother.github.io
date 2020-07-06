@@ -1,46 +1,26 @@
-{% if content.size > 280 %}
-<header class="post-header">
-	<h1 class="post-title" itemprop="name headline">
-	{% if page.title %}
-		<a href="{{ root_url }}{{ page.url }}">{{ page.title }}</a>
-	{% endif %}
-	{% if post.title %}
-		<a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
-	{% endif %}
-	</h1>
-
-	<p class="post-meta">
-	  <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-	    {% assign date_format = site.minima.date_format | default: "%b %-d, %Y @ %H:%M (UTC%z)" %}
-	    {{ post.date | date: date_format }}
-	  </time>
-	</p>
-</header>
-
-<div class="post-content" itemprop="articleBody">
-	{{ content }}
+{% if page.title.size > 0 %}
+<div class="post-header">
+	<h2 class="post-title" itemprop="name headline">
+		{{ page.title }}
+	</h2>
 </div>
 {% endif %}
 
-{% if content.size <= 280 %}
-	{% if last_date != curr_date %}
-	<header class="post-header">
-		<h1 class="post-title" itemprop="name headline">
-			<time datetime="{{ post.date | date_to_xmlschema }}">
-				{{ post.date | date: "%B %e, %Y"}}
-			</time>
-		</h1>
-	</header>
-	{% endif %}
-
-	<div class="post-content micropost" itemprop="articleBody">
-		{{ content }}
-	</div>
-
-	<p class="post-meta micropost">
-	  <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-	    {% assign date_format = site.minima.date_format | default: "@ %H:%M (UTC%z)" %}
-	    <a href="{{ root_url }}{{ post.url }}">{{ post.date | date: date_format }}</a>
-	  </time>
-	</p>
+{% if post.title.size > 0 %}
+<div class="post-header">
+	<h2 class="post-title{% if content.size <= 280 %} micropost{% endif %}" itemprop="name headline">
+		{{ post.title }}
+	</h2>
+</div>
 {% endif %}
+
+<div class="post post-content{% if content.size <= 280 %} micropost{% endif %}" itemprop="articleBody">
+	{{ content }}
+
+	<div class="post-meta">
+		<time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+			{% assign date_format = site.minima.date_format | default: "@ %H:%M / %b %-d" %}
+			<a href="{{ root_url }}{{ post.url }}">{{ post.date | date: date_format }}</a>
+		</time>
+	</div>
+</div>

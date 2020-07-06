@@ -10,7 +10,7 @@ I am a passionate fan of the German language and culture. After studying in both
 
 Although Cincinnati remains my home, many of my interests revolve around our friends over the pond. Germany is especially home to me because of my German heritage and Cincinnati’s largely German roots. In 2010 a few friends and I started [Cincideutsch][cincideutsch], a local German-speaking organization that meets every Monday at 6pm for Stammtisch at [Mecklenburg Gardens][mecklenburgs].
 
-I am also a runner, coffee aﬁcianado, Apple follower, tennis player, public transit geek, beer nerd and indie folk music lover.
+I am also a runner, coffee aﬁcianado, Apple follower, tennis player, public transit geek, beer nerd, and indie folk music lover.
 
 [otr]: http://en.wikipedia.org/wiki/Over-the-Rhine
 [cincinnati]: http://en.wikipedia.org/wiki/Cincinnati

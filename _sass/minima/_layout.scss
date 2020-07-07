@@ -169,6 +169,10 @@
 	margin-bottom: $spacing-unit*2;
 	border-bottom: 0.5px solid;
 	@include color-assign(border-color, grey-color-light);
+
+	&:only-child {
+		border: 0;
+	}
 }
 
 .noborder {
@@ -200,6 +204,7 @@
 }
 
 .post-content {
+	margin-bottom: $spacing-unit*2;
 	// &.micropost p:first-child::before {
 	// 	content: '❦ ';
 	// }

@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<style>
+			html {
+				color-scheme: light dark;
+				color: #333;
+				font: 300 1.2em/1.5 ui-sans-serif, sans-serif;
+				max-width: 70ch;
+				padding: 2ch;
+				margin: auto;
+			}
+			h2,h3,h4,h5,h6 {
+				margin-top: 3ch;
+			}
+			code,pre {
+				font: 0.8em/1.5 ui-monospace, fixed;
+				opacity: 0.6;
+			}
+			@media (prefers-color-scheme: dark) {
+				html,a:link {
+					color: #ddd;
+				}
+				a:visited {
+					color: #999;
+				}
+			}
+		</style>
+	</head>
+
+	<body>
+		<main>
+			<h1>dirtcheapcss 👨🏼‍💻</h1>
+			<p>
+				I needed something to quickly stylize a simple HTML page
+				into a readable document that looked mostly good on all
+				devices. It weighs in at 352b and that's without any code
+				minification. And this is what it looks like:
+			</p>
+
+			<code>
+				&lt;style&gt;
+				html {
+					color-scheme: light dark;
+					color: #333;
+					font: 300 1.2em/1.5 ui-sans-serif, sans-serif;
+					max-width: 70ch;
+					padding: 2ch;
+					margin: auto;
+				}
+				h2,h3,h4,h5,h6 {
+					margin-top: 3ch;
+				}
+				code,pre {
+					font: 0.8em/1.5 ui-monospace, fixed;
+					opacity: 0.6;
+				}
+				@media (prefers-color-scheme: dark) {
+					html,a:link {
+						color: #ddd;
+					}
+					a:visited {
+						color: #999;
+					}
+				}
+				&lt;/style&gt;
+			</code>
+
+			<p>
+				This is clearly not meant for every solution, but in a pinch
+				it can turn an ugly blog or documentation into a decent
+				thing to look at.
+			</p>
+
+			<h2>Requirements ✅</h2>
+
+			<p>
+				There are only a few key requirements for this style that I
+				wanted, though this may evolve depending on the HTML components
+				that I continue to utilize down the road.
+			</p>
+
+			<h3>Font 🖌</h3>
+			<p>
+				This might be more of a personal preference, but I really
+				wanted to leverage the
+				<a href="https://developer.apple.com/fonts/">San Francisco</a>
+				font native to Apple devices. To do this, I am using the
+				<code>ui-sans-serif</code> keyword for the font-family, which
+				should mean Windows/Linux could benefit from this as well.
+			</p>
+
+			<h3>Headers 📰</h3>
+			<p>
+				Font size and margins need to clearly separate content
+				into digestable blocks. I added a margin-top to each of the
+				headers except <code>h1</code> since that will always be
+				the main site header. The extra spacing helps keep the core
+				content associated with its parent header.
+			</p>
+
+			<h3>Lists 📝</h3>
+			<ol>
+				<li>Unordered and ordered lists need to look nice</li>
+				<li>That's pretty easy actually</li>
+				<li>No fiddling with anything really</li>
+			</ol>
+
+			<h3>Dark Mode 🌒</h3>
+			<p>
+				I like to keep my desktop on auto-light/dark mode. By setting
+				a simple media query, the font color can be handled according to
+				whichever mode is currently active.
+			</p>
+
+			<h3>Code 🤖</h3>
+			<p>
+				While syntax highlighting would be a major plus, for now I am
+				okay with simply using a nice monospace font with an opacity
+				setting to set it apart from the rest of the words on the page.
+				I'm using the <code>ui-monospace</code> font, which on the Mac is
+				SF Mono.
+				<a href="https://github.com/highlightjs/highlight.js">Highlight.js</a>
+				could be used as an add-on if the document is very code-heavy.
+			</p>
+
+			<h2>Future Considerations 🚀</h2>
+			<ul>
+				<li>Tables</li>
+				<li>Blockquotes</li>
+				<li>Footnotes</li>
+			</ul>
+
+			<h2>Credits 👋🏼</h2>
+			<p>
+				I was inspired when I came upon Leon Bambrick's
+				(<a href="https://github.com/secretGeek">@secretGeek</a>)
+				<a href="https://secretgeek.github.io/html_wysiwyg/html.html">truly
+				naked, brutalist html quine</a>. I was intrigued towards the bottom
+				of the page when he describes a minimal styling, which was ultimately
+				adapted from <a href="https://jrl.ninja/etc/1/">58 bytes of css to
+				look great nearly everywhere</a> by
+				<a href="https://github.com/joshuarli">@joshuarli</a>.
+			</p>
+		</main>
+	</body>
+</html>

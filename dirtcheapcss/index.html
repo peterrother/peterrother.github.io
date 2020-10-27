@@ -2,20 +2,22 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport, initial-scale=1" content="width=device-width">
+
 		<style>
 			html {
 				color-scheme: light dark;
 				color: #333;
-				font: 300 1.2em/1.5 ui-sans-serif, sans-serif;
+				font: 300 2.2ch/1.5 ui-sans-serif, sans-serif;
 				max-width: 70ch;
-				padding: 2ch;
+				padding: 1ch;
 				margin: auto;
 			}
 			h2,h3,h4,h5,h6 {
 				margin-top: 3ch;
 			}
 			code,pre {
-				font: 0.8em/1.5 ui-monospace, fixed;
+				font: 1.4ch ui-monospace, fixed;
 				opacity: 0.6;
 			}
 			@media (prefers-color-scheme: dark) {
@@ -35,35 +37,35 @@
 			<p>
 				I needed something to quickly stylize a simple HTML page
 				into a readable document that looked mostly good on all
-				devices. It weighs in at 352b and that's without any code
+				devices. It weighs in at 348b and that's without any code
 				minification. And this is what it looks like:
 			</p>
 
 			<code>
 				&lt;style&gt;
-				html {
-					color-scheme: light dark;
-					color: #333;
-					font: 300 1.2em/1.5 ui-sans-serif, sans-serif;
-					max-width: 70ch;
-					padding: 2ch;
-					margin: auto;
-				}
-				h2,h3,h4,h5,h6 {
-					margin-top: 3ch;
-				}
-				code,pre {
-					font: 0.8em/1.5 ui-monospace, fixed;
-					opacity: 0.6;
-				}
-				@media (prefers-color-scheme: dark) {
-					html,a:link {
-						color: #ddd;
+					html {
+						color-scheme: light dark;
+						color: #333;
+						font: 300 2.2ch/1.5 ui-sans-serif, sans-serif;
+						max-width: 70ch;
+						padding: 1ch;
+						margin: auto;
 					}
-					a:visited {
-						color: #999;
+					h2,h3,h4,h5,h6 {
+						margin-top: 3ch;
 					}
-				}
+					code,pre {
+						font: 1.4ch ui-monospace, fixed;
+						opacity: 0.6;
+					}
+					@media (prefers-color-scheme: dark) {
+						html,a:link {
+							color: #ddd;
+						}
+						a:visited {
+							color: #999;
+						}
+					}
 				&lt;/style&gt;
 			</code>
 

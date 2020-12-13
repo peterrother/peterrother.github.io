@@ -22,6 +22,9 @@
 				font: 1.4ch ui-monospace, fixed;
 				opacity: 0.6;
 			}
+			img {
+				max-width: 100%;
+			}
 			@media (prefers-color-scheme: dark) {
 				html,a:link {
 					color: #ddd;
@@ -38,8 +41,8 @@
 			<h1>dirtcheapcss 👨🏼‍💻</h1>
 			<p>
 				I needed something to quickly stylize a simple HTML page
-				into a readable document that looks mostly good on all
-				devices. It weighs in at 348b and that's without any code
+				into a readable document that looked mostly good on all
+				devices. It weighs in at 374b and that's without any code
 				minification. And this is what it looks like:
 			</p>
 
@@ -60,6 +63,9 @@
 						font: 1.4ch ui-monospace, fixed;
 						opacity: 0.6;
 					}
+					img {
+						max-width: 100%;
+					}
 					@media (prefers-color-scheme: dark) {
 						html,a:link {
 							color: #ddd;
@@ -72,7 +78,7 @@
 			</code>
 
 			<p>
-				This is clearly not meant for every project, but in a pinch
+				This is clearly not meant for every solution, but in a pinch
 				it can turn an ugly blog or documentation into a decent
 				thing to look at.
 			</p>
@@ -81,7 +87,7 @@
 
 			<p>
 				There are only a few key requirements for this style that I
-				desired, though this list may evolve depending on the HTML components
+				wanted, though this may evolve depending on the HTML components
 				that I continue to utilize down the road.
 			</p>
 
@@ -127,6 +133,18 @@
 				SF Mono.
 				<a href="https://github.com/highlightjs/highlight.js">Highlight.js</a>
 				could be used as an add-on if the document is very code-heavy.
+			</p>
+
+			<h3>Images 🌄</h3>
+			<p>
+				The only issue with images in a reduced-width layout such as this
+				is that <code>img</code> tags will stretch beyond the main content.
+				To address this, a simple <code>max-width: 100%</code> will scale
+				images to width of this container.
+			</p>
+			<p>
+				Example:
+				<img src="sample.jpg" alt="[Sample image]" />
 			</p>
 
 			<h2>Future Considerations 🚀</h2>

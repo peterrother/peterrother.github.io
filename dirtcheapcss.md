@@ -1,13 +1,11 @@
 ---
-layout: page
+layout: blank
 title: dirtcheapcss 👨🏼‍💻
 permalink: /dirtcheapcss/
 exclude_header: true
 css_override: dirtcheap.css
 navexclude: true
 ---
-
-# dirtcheapcss 👨🏼‍💻
 
 I needed something to quickly stylize a simple HTML page
 into a readable document that looked mostly good on all

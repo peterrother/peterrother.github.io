@@ -1,6 +1,5 @@
 .DS_Store
 _site/**
-Gemfile
 *.lock
 _site/feed.json
 _site/feed.xml

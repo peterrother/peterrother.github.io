@@ -8,7 +8,7 @@ Below is a compilation of links to websites belonging to friends or
 family, other ones I've built, or just cool sites in general that I want to
 record here.
 
-## Personal
+## Personal 👤
 
 - [katieandpeter.wedding](https://katieandpeter.wedding) -
 Katie and my wedding photo website
@@ -17,7 +17,7 @@ A minimal stylesheet that can be used to improve the L&F of any webpage
 - [peterrother.com/cocktailhour](https://peterrother.com/cocktailhour/) -
 My growing list of favorite cocktail recipes
 
-## Cincinnati
+## Cincinnati 🏙
 
 - [53tcourier.com](https://www.53tcourier.com) -
 A great Cincinnati bike courier service and resource for food delivery
@@ -34,26 +34,26 @@ Chris Anderson's awesome home for mind-blowing science knowledge
 - [soapboxmedia.com](https://www.soapboxmedia.com) -
 A Cincinnati-focused online publication for community storytelling
 
-## News/Blogs
+## News/Blogs 📰
 
 - [blog.fefe.de](http://blog.fefe.de) -
 No nonsense German news in a plain text format with a tech focus
 
-## Technology
+## Technology 📱
 
 - [apple.com/ios/home/accessories](https://www.apple.com/ios/home/accessories/) -
 A convenient list of all Homekit-compatible devices
 - [atp.fm](https://atp.fm) -
 Everyone's favorite Apple-focused podcast
 
-## Travel
+## Travel 🧳
 
 - [allgaeu-viehscheid.de](https://www.allgaeu-viehscheid.de) -
 Your guide to the annual Viehscheid events happening throughout the Allgäu
 - [wandersite.ch](http://www.wandersite.ch) -
 A Swiss hiking hobbyist who's logged some serious miles and recorded everything
 
-## Web
+## Web 🌎
 
 - [brutalistwebsites.com](https://brutalistwebsites.com) -
 Fascinating gallery of brutalism-inspired websites

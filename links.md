@@ -25,14 +25,14 @@ A great Cincinnati bike courier service and resource for food delivery
 Cincideutsch, the German-speaking club I helped found in Cincinnati
 - [citybeat.com](https://www.citybeat.com) -
 Cincinnati's independent news and arts tabloid
-- [soapboxmedia.com](https://www.soapboxmedia.com) -
-A Cincinnati-focused online publication for community storytelling
 - [ohiochannel.org](http://ohiochannel.org) -
 Ohio public broadcasting including the Governor's addresses
 - [sciaroundcincy.com](https://sciaroundcincy.com) -
 Chris Anderson's new blog capturing all the fun science locally
 - [scienceovereverything.com](http://scienceovereverything.com) -
 Chris Anderson's awesome home for mind-blowing science knowledge
+- [soapboxmedia.com](https://www.soapboxmedia.com) -
+A Cincinnati-focused online publication for community storytelling
 
 ## News/Blogs
 
@@ -59,7 +59,7 @@ A Swiss hiking hobbyist who's logged some serious miles and recorded everything
 Fascinating gallery of brutalism-inspired websites
 - [indieweb.org](https://indieweb.org) -
 Excellent resources on the IndieWeb and how you can be part of it
-- [qutebrowser.org](https://www.qutebrowser.org) -
-A keyboard-focused web browser that can be used on many different platforms
 - <a href="https://micro.blog/peterrother" rel="me">micro.blog</a> -
 My Micro.blog account, which contains all the posts from this journal
+- [qutebrowser.org](https://www.qutebrowser.org) -
+A keyboard-focused web browser that can be used on many different platforms

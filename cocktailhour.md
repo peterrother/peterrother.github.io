@@ -64,3 +64,24 @@ A simple, fall oriented cocktail from Gabe Cothes, lead bartender at San Francis
 2. Stir well
 3. Strain into old-fashioned glass with ice
 4. Garnish with cherry
+
+## Long Drinks
+
+### Americano
+
+First served in [Gaspare Campari](https://en.wikipedia.org/wiki/Gaspare_Campari)'s bar Caffè Campari in the 1860s, this cocktail is my go-to, low-proof drink of choice enjoyed as an apéritif. Similar to the Negroni, it's the perfect mate to a pasta dinner night giving ample oportunity to consume salatini and have a conversation before the main course. I've tweaked the official IBA recipe as I prefer this drink to be longer and more effervescent.
+
+#### Ingredients
+
+* 2 oz Campari
+* 2 oz Sweet Vermouth (sugg. Cocchi di Torino)
+* 5-6 oz Soda water
+* Orange slice
+* Lemon twist
+
+#### Steps
+
+1. Combine Campari and Vermouth in highball glass
+2. Add ice and stir for 5 seconds
+3. Top with soda water
+4. Garnish with orange slice and lemon twist

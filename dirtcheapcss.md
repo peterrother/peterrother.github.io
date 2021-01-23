@@ -70,9 +70,9 @@ content associated with its parent header.
 
 ### Lists 📝
 
-1. Unordered and ordered lists need to look nice</li>
-2. That's pretty easy actually</li>
-3. No fiddling with anything really</li>
+1. Unordered and ordered lists need to look nice
+2. That's pretty easy actually
+3. No fiddling with anything really
 
 ### Dark Mode 🌒
 

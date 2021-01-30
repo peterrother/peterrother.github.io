@@ -9,7 +9,7 @@ navexclude: true
 
 I needed something to quickly stylize a simple HTML page
 into a readable document that looked mostly good on all
-devices. It weighs in at 374b and that's without any code
+devices. It weighs in at 377b and that's without any code
 minification. And this is what it looks like:
 
 ```css
@@ -27,6 +27,7 @@ h2,h3,h4,h5,h6 {
 code,pre {
   font: 1.4ch ui-monospace, fixed;
   opacity: 0.7;
+  overflow-x: scroll;
 }
 img {
   max-width: 100%;

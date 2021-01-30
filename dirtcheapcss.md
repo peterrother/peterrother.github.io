@@ -26,7 +26,7 @@ h2,h3,h4,h5,h6 {
 }
 code,pre {
   font: 1.4ch ui-monospace, fixed;
-  opacity: 0.6;
+  opacity: 0.7;
 }
 img {
   max-width: 100%;

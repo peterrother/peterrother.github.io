@@ -12,10 +12,10 @@ record here.
 
 - [katieandpeter.wedding](https://katieandpeter.wedding) -
 Katie and my wedding photo website
-- [peterrother.com/dirtcheapcss](https://peterrother.com/dirtcheapcss/) -
-A minimal stylesheet that can be used to improve the L&F of any webpage
 - [peterrother.com/cocktailhour](https://peterrother.com/cocktailhour/) -
 My growing list of favorite cocktail recipes
+- [peterrother.com/dirtcheapcss](https://peterrother.com/dirtcheapcss/) -
+A minimal stylesheet that can be used to improve the L&F of any webpage
 
 ## Cincinnati 🏙
 

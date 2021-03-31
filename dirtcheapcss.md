@@ -98,7 +98,8 @@ is that `img` tags will stretch beyond the main content.
 To address this, a simple `max-width: 100%` will scale
 images to width of this container.
 
-Example:
+#### Example
+
 ![Sample Image](/assets/img/sample.jpg)
 
 ## Future Considerations 🚀

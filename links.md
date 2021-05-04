@@ -36,7 +36,7 @@ A Cincinnati-focused online publication for community storytelling
 
 ## News/Blogs 📰
 
-- [blog.fefe.de](http://blog.fefe.de) -
+- [blog.fefe.de](https://blog.fefe.de) -
 No nonsense German news in a plain text format with a tech focus
 
 ## Technology 📱

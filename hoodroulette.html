@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Cincy Neighborhood Roulette</title>
+
+		<style>
+			body {
+				font-family: Impact, sans-serif;
+				text-align: center;
+			}
+			#result {
+				font-size: 10ch;
+			}
+			#tagline {
+				font-size: 2ch;
+			}
+		</style>
+
+		<script>
+			document.addEventListener('DOMContentLoaded', () => {
+				const neighborhoods = [
+					{ name: 'Cheviot', tagline: 'West-side best-side' },
+					{ name: 'Clifton Gaslight', tagline: 'For that refined university feel' },
+					{ name: 'Clifton Heights', tagline: 'Get trashed with college kids on Nati Light' },
+					{ name: 'Columbia Tusculum', tagline: 'You know you\'ll end of up at Tostados' },
+					{ name: 'Corryville', tagline: 'A tasty German beer at Mecks then rowdy it up on Short Vine' },
+					{ name: 'Covington', tagline: 'Save some of that cash and go across the river' },
+					{ name: 'Downtown', tagline: 'Dodge scooters and enjoy what\'s left of CBD' },
+					{ name: 'East End', tagline: 'Let\'s get weird' },
+					{ name: 'East Walnut Hills', tagline: 'It is just okay here' },
+					{ name: 'Hyde Park', tagline: 'Get your snoot on' },
+					{ name: 'Mt. Adams', tagline: 'Washed up hilltop' },
+					{ name: 'Mt. Lookout', tagline: 'Look out for bros in the wild' },
+					{ name: 'Newport', tagline: 'It\'s not only just the levy' },
+					{ name: 'Northside', tagline: 'Hipster oasis' },
+					{ name: 'Norwood', tagline: 'Have a Bud heavy or 2 with the rednecks' },
+					{ name: 'O\' Bryonville', tagline: 'The little neighborhood that could' },
+					{ name: 'Oakley', tagline: 'Have fun with some drunk YPs or wannabes' },
+					{ name: 'Over-the-Rhine', tagline: 'The unrivaled night life champion of Cincinnati' },
+					{ name: 'Pendleton', tagline: 'Enjoy OTR\'s annex' },
+					{ name: 'Pleasant Ridge', tagline: 'Get pleasantly wasted then get an Uber' },
+					{ name: 'Price Hill', tagline: 'Only the finest of watering holes' },
+					{ name: 'Silverton', tagline: 'Use your last silver dollar in this gem of a neighborhood' },
+					{ name: 'Walnut Hills', tagline: 'New old hotness' }
+				];
+
+				let rouletteResult = neighborhoods[Math.floor(Math.random() * neighborhoods.length)];
+
+				document.getElementById('result').innerHTML = rouletteResult.name;
+				document.getElementById('tagline').innerHTML = rouletteResult.tagline;
+			});
+		</script>
+	</head>
+
+	<body>
+		<div id="result"></div>
+		<div id="tagline"></div>
+	</body>
+</html>

@@ -4,7 +4,7 @@ title: 🤓 About
 permalink: /about/
 ---
 
-I am Peter Rother, a 35-year old American web application developer who lives in the [Over-the-Rhine][otr] neighborhood of [Cincinnati, Ohio][cincinnati]. I was born and raised on the westside of Cincinnati and studied at [St. Xavier High School][st-xavier] and the [University of Cincinnati][uc], having received a BBA in [Information Systems][uc-is]. I currently build online EHS software alongside an amazing global team at [Gensuite LLC][gensuite].
+I am Peter Rother, a 36-year old American web application developer who lives in the [Over-the-Rhine][otr] neighborhood of [Cincinnati, Ohio][cincinnati]. I was born and raised on the westside of Cincinnati and studied at [St. Xavier High School][st-xavier] and the [University of Cincinnati][uc], having received a BBA in [Information Systems][uc-is]. I currently build online EHS software alongside an amazing global team at [Gensuite LLC][gensuite].
 
 I am a passionate fan of the German language and culture. After studying in both Germany and Austria I worked in Cincinnati's sister city, [Munich, Germany][munich], home of Oktoberfest. Since then I have developed quite the penchant for traveling throughout Europe.
 

@@ -124,6 +124,5 @@ I was inspired when I came upon Leon Bambrick's
 [truly naked, brutalist html quine](https://secretgeek.github.io/html_wysiwyg/html.html).
 I was intrigued towards the bottom
 of the page when he describes a minimal styling, which was ultimately
-adapted from
-[58 bytes of css to look great nearly everywhere](https://jrl.ninja/etc/1/)
+adapted from _58 bytes of css to look great nearly everywhere_ (Link now dead)
 by [@joshuarli](https://github.com/joshuarli).

@@ -1,20 +1,25 @@
 #!/bin/bash
 
 FOLDER="./_posts"
-EDITOR="Visual Studio Code"
+OPENCMD=code
 
 function prompt() {
-	osascript <<EOT
-		tell app "System Events"
-			text returned of (display dialog "$1" default answer "$2" buttons {"OK"} default button 1 with title "$(basename $0)")
-		end tell
+	if hash osascript 2>/dev/null; then
+		osascript <<EOT
+			tell app "System Events"
+				text returned of (display dialog "$1" default answer "$2" buttons {"OK"} default button 1 with title "$(basename $0)")
+			end tell
 EOT
+	else
+		read -e -p "$1: " TITLE
+		echo $TITLE
+	fi
 }
 
 _VALUE="$(prompt 'Enter post title' '')"
 _FILENAME="$(date +%F)"
 
-if [ -n $_VALUE ]
+if [[ -z $_VALUE ]]
 then
 	_NEWPOST=0
 	_MICROPOSTS=($(find $FOLDER -iname "*.md" | grep -a micropost-))
@@ -41,4 +46,4 @@ date: $(date +%F) $(date +%H):$(date +%M):$(date +%S) $(date +%z)
 ---
 " > "$FOLDER/$_FILENAME"
 
-open -a "$EDITOR" "$FOLDER/$_FILENAME"
+$OPENCMD "$FOLDER/$_FILENAME"

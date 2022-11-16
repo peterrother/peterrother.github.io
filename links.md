@@ -28,9 +28,7 @@ Cincinnati's independent news and arts tabloid
 - [ohiochannel.org](http://ohiochannel.org) -
 Ohio public broadcasting including the Governor's addresses
 - [sciaroundcincy.com](https://sciaroundcincy.com) -
-Chris Anderson's new blog capturing all the fun science locally
-- [scienceovereverything.com](http://scienceovereverything.com) -
-Chris Anderson's awesome home for mind-blowing science knowledge
+Chris Anderson's blog capturing all the fun science locally
 - [soapboxmedia.com](https://www.soapboxmedia.com) -
 A Cincinnati-focused online publication for community storytelling
 

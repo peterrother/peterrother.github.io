@@ -27,10 +27,15 @@ Cincideutsch, the German-speaking club I helped found in Cincinnati
 Cincinnati's independent news and arts tabloid
 - [ohiochannel.org](http://ohiochannel.org) -
 Ohio public broadcasting including the Governor's addresses
-- [sciaroundcincy.com](https://sciaroundcincy.com) -
-Chris Anderson's blog capturing all the fun science locally
 - [soapboxmedia.com](https://www.soapboxmedia.com) -
 A Cincinnati-focused online publication for community storytelling
+
+## Friends 👥
+
+- [gerhardscs.com](https://www.gerhardscs.com) -
+Sascha Gerhards Consulting
+- [sciaroundcincy.com](https://sciaroundcincy.com) -
+Chris Anderson's blog capturing all the fun science locally
 
 ## News/Blogs 📰
 

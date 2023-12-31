@@ -8,9 +8,9 @@ I am Peter Rother, a {{ "now" | date: "%Y" | minus: 1985 }}-year old American we
 
 I am a passionate fan of the German language and culture. After studying in both Germany and Austria I worked in Cincinnati's sister city, [Munich, Germany][munich], home of Oktoberfest. Since then I have developed quite the penchant for traveling throughout Europe.
 
-Although Cincinnati remains my home, many of my interests revolve around our friends over the pond. Germany is especially home to me because of my German heritage and Cincinnati’s largely German roots. In 2010 a few friends and I started [Cincideutsch][cincideutsch], a local German-speaking organization that meets every Monday at 6pm for Stammtisch at [Mecklenburg Gardens][mecklenburgs].
+Although Cincinnati remains my home, many of my interests revolve around our friends over the pond. Germany is especially home to me because of my German heritage and Cincinnati’s largely German roots. In 2010 a few friends and I started [Cincideutsch][cincideutsch], a local German-speaking organization that meets every Monday evening for Stammtisch.
 
-I am also a runner, coffee aﬁcianado, Apple follower, tennis player, public transit geek, beer nerd, and indie folk music lover.
+I am also a runner, coffee aﬁcianado, Apple follower, public transit geek, beer nerd, and indie folk music lover.
 
 [otr]: http://en.wikipedia.org/wiki/Over-the-Rhine
 [cincinnati]: http://en.wikipedia.org/wiki/Cincinnati
@@ -19,7 +19,6 @@ I am also a runner, coffee aﬁcianado, Apple follower, tennis player, public tr
 [uc-is]: https://business.uc.edu/academics/undergraduate/information-systems/major.html
 [munich]: http://en.wikipedia.org/wiki/Munich
 [cincideutsch]: http://cincideutsch.com/
-[mecklenburgs]: http://www.mecklenburgs.net/
 [benchmark]: https://benchmarkgensuite.com
 
 *[EHS]: Environmental, Health, & Safety

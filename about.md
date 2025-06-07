@@ -2,6 +2,7 @@
 layout: page
 title: 🤓 About
 permalink: /about/
+navexclude: true
 ---
 
 I am Peter Rother, a {{ "now" | date: "%Y" | minus: 1985 }}-year old American web application developer who lives in the [Over-the-Rhine][otr] neighborhood of [Cincinnati, Ohio][cincinnati]. I was born and raised on the westside of Cincinnati and studied at [St. Xavier High School][st-xavier] and the [University of Cincinnati][uc], having received a BBA in [Information Systems][uc-is]. I currently build online ESG/EHS software alongside an amazing global team at [Benchmark Gensuite&reg;][benchmark].

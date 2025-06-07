@@ -2,6 +2,7 @@
 layout: page
 title: 🔗 Links
 permalink: /links/
+navexclude: true
 ---
 
 Below is a compilation of links to websites belonging to friends or

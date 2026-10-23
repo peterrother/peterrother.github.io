@@ -1,3 +1,7 @@
+@use "sass:color";
+@use "sass:map";
+@use "sass:string";
+
 $colors: (
 	light: (
 		background: #fdfdfd,
@@ -10,9 +14,9 @@ $colors: (
 		nav-color: #111,
 		rouge: #eef,
 		grey-color: #929292,
-		grey-color-light: lighten(#929292, 25%),
-		grey-color-dark: darken(#929292, 25%),
-		hamburger: darken(#929292, 25%)
+		grey-color-light: color.adjust(#929292, $lightness: 25%),
+		grey-color-dark: color.adjust(#929292, $lightness: -25%),
+		hamburger: color.adjust(#929292, $lightness: -25%)
 	),
 	dark: (
 		background: #222,
@@ -25,9 +29,9 @@ $colors: (
 		nav-color: #ccc,
 		rouge: #111,
 		grey-color: #929292,
-		grey-color-light: lighten(#929292, 40%),
-		grey-color-dark: darken(#929292, 25%),
-		hamburger: lighten(#929292, 40%)
+		grey-color-light: color.adjust(#929292, $lightness: 40%),
+		grey-color-dark: color.adjust(#929292, $lightness: -25%),
+		hamburger: color.adjust(#929292, $lightness: 40%)
 	),
 );
 
@@ -38,37 +42,42 @@ $color-placeholder: 'here';
 }
 
 :root {
-	@each $key, $value in map-get($colors, 'light') {
+	@each $key, $value in map.get($colors, 'light') {
 		#{compose-color-variable($key)}: #{$value};
 	}
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		@each $key, $value in map-get($colors, 'dark') {
+		@each $key, $value in map.get($colors, 'dark') {
 			#{compose-color-variable($key)}: #{$value};
 		}
 	}
 }
 
 @function str-replace($string, $search, $replace: '') {
-	$index: str-index($string, $search);
+	$index: string.index($string, $search);
 
 	@if not $index {
 		@return $string;
 	}
 
-	@return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+	@return string.slice($string, 1, $index - 1) + $replace + str-replace(string.slice($string, $index + string.length($search)), $search, $replace);
 }
 
 @function color-get($palette, $color-key) {
-	@return map-get(map-get($colors, $palette), $color-key);
+	@return map.get(map.get($colors, $palette), $color-key);
 }
 
 @mixin color-assign($property, $color-key, $template: '') {
 	$fallback: #{color-get("light", $color-key)};
 	$var: var(#{compose-color-variable($color-key)});
 
-	#{$property}: if(str-length($template) == 0, $fallback, #{str-replace($template, $color-placeholder, $fallback)});
-	#{$property}: if(str-length($template) == 0, $var, #{str-replace($template, $color-placeholder, $var)});
+	@if string.length($template) == 0 {
+		#{$property}: $fallback;
+		#{$property}: $var;
+	} @else {
+		#{$property}: #{str-replace($template, $color-placeholder, $fallback)};
+		#{$property}: #{str-replace($template, $color-placeholder, $var)};
+	}
 }
